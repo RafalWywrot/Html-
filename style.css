@@ -10,10 +10,10 @@ td {
     text-align: center;
 }
 
-.table-striped > tbody > tr:nth-child(odd) {
+.table-striped > tbody > tr:nth-child(even) {
      background-color: #BDBDBD;
  }
 
-.table-striped > tbody > tr:nth-child(1) {
+.table-striped > thead > tr:nth-child(1) {
     background-color: #CE34F3;
 }
